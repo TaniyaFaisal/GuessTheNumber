@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+body{
+    background-image:url("bkg.jpg"); 
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.container{
+    background-color:#b9894b;
+    border-radius: 50px;
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75vw;
+    height: 75vh;
+    line-height: 1.6;
+    padding: 20px 20px;
+    margin: 75px 20px;
+}
+
+.logo{
+    font-size: 5em;
+    color:#ffff3d;
+    width: 400px;
+    text-align: center;
+}
+
+.button{
+    background-color:#ffff3d;
+    margin: 30px 0;
+    border-color: black;
+    border-radius: 10px;
+    padding: 10px 15px;
+    min-width: 100px;
+    text-align: center;
+    font-size: 1.2em;
+    color: black;
+    cursor: pointer;
+}
+
+.input-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1{
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 20px;
+}
+
+input{
+    width:200px;
+    margin: 30px;
+    height: 2.5em;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#lives-text{
+    color: black;
+}
+
+#message{
+    font-size: 1.5em;
+    background-color:#ffff3d ;
+    padding: 5px 15px;
+    border-radius: 5px;
+    text-align: center;
+    display: none;
+}
